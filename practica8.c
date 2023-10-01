@@ -194,6 +194,11 @@ void mostrarvec()
     {
         printf(",%d ", vector2[i]);
     }
+    printf("\nvector3=");
+    for (i = 0; i < 20; i++)
+    {
+        printf(",%d ", vector3[i]);
+    }
     printf("\n");
 }
 void matriz4x4()
