@@ -146,6 +146,7 @@ void vec1()
 }
 void vec2()
 {
+    srand(time(NULL));
     int i, j, x, rs, ri, repe;
     for (i = 0; i < 10; i++)
     {
@@ -227,7 +228,6 @@ void imprimirmatriz()
         for (j = 0; j < 4; j++)
         {
             printf("%d ", matriz[i][j]);
-
         }
         printf("\n");
     }
